@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
 	spec.homepage			= 'https://www.payworks.com/developers'
     spec.authors            = { 'payworks' => 'developers@payworks.com' }
 	spec.summary			= 'A delightful UI framework build on top of the venerated payment integration framework powered by payworks'
-	spec.platform			= :ios, '15.0'
+	spec.platform			= :ios, '12.0'
 	spec.requires_arc		= true
 	spec.swift_version      = '5.0'
 	spec.source				= { :http => 'https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.ui/'+spec.version.to_s+'/mpos.ios.ui-'+spec.version.to_s+'.zip' }
